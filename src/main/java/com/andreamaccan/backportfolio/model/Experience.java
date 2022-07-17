@@ -1,7 +1,6 @@
 package com.andreamaccan.backportfolio.model;
 
 import java.io.Serializable;
-import java.sql.Date;
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

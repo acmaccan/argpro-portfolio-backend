@@ -20,7 +20,8 @@ public class BackPortfolioApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:4200")
+                        .allowedOrigins("https://portfolio-frontend-32644.web.app")
+                        // .allowedOrigins("http://localhost:4200")
                         .allowedMethods("*")
                         .allowedHeaders("*");
             }
